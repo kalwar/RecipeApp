@@ -42,6 +42,11 @@ RecipeApp is a Symfony back-end API for storing and interacting with food recipe
    (choose body, x-www-form-urlencoded and select key i.e. name and value: new value to be edited or updated)
 5. Delete a recipe, DELETE endpoint: `/api/recipes/remove/{id}`
 
+# Production deployment
+
+RecipeApp is currently deployed at heroku,
+the baseURL is: https://intense-journey-91807.herokuapp.com
+
 # Tech stack
 
 1.  [Symfony](https://symfony.com/)
